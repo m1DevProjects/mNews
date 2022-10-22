@@ -1,0 +1,34 @@
+{
+  "name": "mnews",
+  "version": "1.0.0",
+  "description": "A simple app to gather gaming news and reviews from all over the internet, and display them in a simple form!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1DevProjects/mNews.git"
+  },
+  "keywords": [
+    "news",
+    "gaming",
+    "rss",
+    "feeds",
+    "express",
+    "node"
+  ],
+  "author": "m.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1DevProjects/mNews/issues"
+  },
+  "homepage": "https://github.com/m1DevProjects/mNews#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "express": "^4.18.2",
+    "glob": "^8.0.3",
+    "rss-parser": "^3.12.0",
+    "util": "^0.12.5"
+  }
+}
