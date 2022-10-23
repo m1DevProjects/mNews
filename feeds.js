@@ -15,7 +15,7 @@ module.exports = [
         provider: 'Polsat News',
         type: 'technologie',
         link: 'https://www.polsatnews.pl/rss/technologie.xml',
-        webhookUrl: 'https://discord.com/api/webhooks/1033808626432876587/dhM4lths5EDesAR72Sw5qD91-CX8R9QGStjRQKaB_VEtZzygd0XXEFimAnvUr9qkYpDP'
+        webhookUrl: 'https://discord.com/api/webhooks/1033818415649017898/2nmH1iDxoslQmGDthmxuyUFNSbYTYofbCFB3cl0B-77rG1r4jKzbNECSKaxENUBHJbN_'
     },
     {
         provider: 'Polsat News',
