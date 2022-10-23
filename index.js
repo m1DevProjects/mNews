@@ -32,7 +32,7 @@ events.forEach(e => {
             .setTimestamp(pubdate)
             .setURL(link)
             .setFooter({ text: 'mNews', iconURL: 'https://i.imgur.com/YkwM5EL.png' });
-        if(enclosures) embed.setThumbnail(enclosures[0].url);
+        if(enclosures && enclosures[0] && enclosures[0].url) embed.setThumbnail(enclosures[0].url);
         if(!enclosures[0].url || !enclosures) embed.setThumbnail('https://i.imgur.com/YkwM5EL.png')
         e.webhookClient.send({
             username: 'mNews',
